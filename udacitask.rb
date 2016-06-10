@@ -10,15 +10,15 @@ tasks.add_item "work out"
 # Print the list
 tasks.print
 # Delete the first item
-tasks.remove 0
-# Print the list
-tasks.print
-# Delete the second item
 tasks.remove 1
 # Print the list
 tasks.print
+# Delete the second item
+tasks.remove 2
+# Print the list
+tasks.print
 # Update the completion status of the first item to complete
-tasks.complete 0
+tasks.complete 1
 # Print the list
 tasks.print
 # Update the title of the list

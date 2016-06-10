@@ -1,0 +1,8 @@
+new_features1 overview
+It will review user's todolist's completion status, and give user feedback.
+
+new_features2 steps
+It will enable user to put specific steps on each task. 
+
+new_features3 deadline
+It will let user to set deadline on each task.

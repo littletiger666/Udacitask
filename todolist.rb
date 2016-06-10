@@ -26,6 +26,10 @@ class TodoList
   def complete (position)
     @items[position].status = true
   end
+
+  def complete? (position)
+    @items[position].status
+  end
 end
 
 class Item
@@ -35,6 +39,10 @@ class Item
   def initialize(description)
     @description = description
     @status = false
+  end
+
+  def print
+    puts "#{self.description} --> #{self.status}"
   end
 
 end

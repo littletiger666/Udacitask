@@ -1,0 +1,23 @@
+commit 9bd52ea45bb89d03f14702b7c7359d44c848b280
+Author: Xiaohu Li <li.xiaohu6@gmail.com>
+Date:   Thu Jun 9 23:34:08 2016 -0700
+
+    add three new features
+
+commit 1d291350c3f92dd60ef255c633bd9cba051f4182
+Author: Xiaohu Li <li.xiaohu6@gmail.com>
+Date:   Thu Jun 9 21:36:25 2016 -0700
+
+    add boolen value method
+
+commit 8e8eb8b2bd88152a635d94a8f3621066ee6afe4f
+Author: Xiaohu Li <li.xiaohu6@gmail.com>
+Date:   Thu Jun 9 20:59:27 2016 -0700
+
+    main features
+
+commit 642e17e57fb7484672e843c0a46587eec97403c0
+Author: Xiaohu Li <li.xiaohu6@gmail.com>
+Date:   Thu Jun 9 10:48:01 2016 -0700
+
+    Basic Structure

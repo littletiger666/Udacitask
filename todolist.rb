@@ -19,6 +19,7 @@ class TodoList
   def print
     puts "#{self.title}:"
     @items.each do |item|
+      puts "#{@items.index(item)+1}: "
       item.print
     end
   end
@@ -34,13 +35,13 @@ class TodoList
   def overview
     finished_task = @items.select { |task| task.status == true }.length
     if finished_task == @items.length
-      puts "You have finished all the tasks, well done!"
+      puts "WoW, You have finished all the tasks, well done!"
     elsif finished_task > @items.length/2
       puts "You have finished almost all the tasks, good job!"
     elsif finished_task >0 && finished_task <= @items.length/2
       puts "You have finished just a few tasks, wanna do 1 or 2 more?"
     else
-      puts "You haven't finished any task, weak up and start doing it now!"
+      puts "You haven't finished any task, weak up and start it now!"
     end
   end
 end
